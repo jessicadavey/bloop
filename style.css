@@ -1,0 +1,151 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #111324;
+  position: relative;
+}
+
+a {
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
+nav {
+  background-color: #111324;
+  height: 82px;
+}
+
+nav a {
+  color: #dcdeef;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+#opening {
+  margin-top: 82px;
+  margin-bottom: 0;
+  background-color: #1e2140;
+  color: #f5f5f5;
+  height: 355px;
+  min-width: 100%;
+}
+
+#opening h1 {
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.icon {
+  font-size: 2em;
+  color: #a3a3a9;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
+.icon:hover {
+  color: #f5f5f5;
+}
+
+.video {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+main {
+  background-color: white;
+}
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  text-align: center;
+  color: #787878;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+section h2::before {
+  display: block;
+  content: " ";
+  margin-top: -82px;
+  height: 82px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #787878;
+}
+
+.card-text {
+  color: #787878;
+}
+
+#contact {
+  background-color: #f6f6f7;
+  color: #181a31;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#contact p {
+  padding-bottom: 20px;
+}
+
+#contact p a {
+  color: #51cfdb;
+  font-weight: bold;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.btn-dark {
+  background-color: #7856ff;
+  border-color: #7856ff;
+}
+
+.btn-dark:hover {
+  background-color: #886aff;
+  border-color: #886aff;
+}
+
+.btn-outline-primary {
+  border-color: #6ad6e0;
+  color: #6ad6e0;
+}
+
+.btn-outline-primary:hover {
+  border-color: #6ad6e0;
+  background-color: #6ad6e0;
+  color: #111324;
+}
+
+footer {
+  color: #f5f5f5;
+}
+
+footer a {
+  color: #2b6271;
+}
+
+footer a:hover {
+  color: #7856ff;
+}
